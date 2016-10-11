@@ -3,12 +3,12 @@ from astropy.table import Table
 from astropy.io import ascii
 
 #Asplund 2009 Photosphere Comp.
-aphot = ascii.read('/wandajune_home/jakub/MyModules/asplund_sun.dat')
+aphot = ascii.read('asplund_sun.dat')
 
 #dictionary to convert proton number into element symbol
 edict = {}
 edict['1'] = 'H'
-edict['2'] = 'Hi'
+edict['2'] = 'He'
 edict['3'] = 'Li'
 edict['4'] = 'Be'
 edict['5'] = 'B'

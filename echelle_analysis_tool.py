@@ -46,7 +46,7 @@ from fancy_plot import *
 #dictionary to convert proton number into element symbol
 edict = {}
 edict['1'] = 'H'
-edict['2'] = 'Hi'
+edict['2'] = 'He'
 edict['3'] = 'Li'
 edict['4'] = 'Be'
 edict['5'] = 'B'
